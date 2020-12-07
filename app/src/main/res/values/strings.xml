@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AlertDialogExample</string>
+    <string name="show_dialog_1">Показать диалог</string>
+    <string name="show_dialog_2">Показать диалог(2)</string>
+    <string name="show_dialog_3">Показать диалог(3)</string>
+    <string name="show_dialog_list">Показать диалог(список)</string>
+    <string name="show_dialog_single">Показать диалог(single)</string>
+    <string name="show_dialog_multi">Показать диалог(multi)</string>
+    <string name="show_dialog_rate">Показать диалог(rate)</string>
+    <string name="show_dialog_custom">Показать диалог(custom)</string>
+    <string name="alert_dialog_title">Важное сообщение!</string>
+    <string name="alert_dialog_message">Покорми кота!</string>
+    <string name="alert_dialog_ok_text">Ок</string>
+    <string name="alert_dialog_cancel_text">Отмена</string>
+    <string name="alert_dialog_two_button_title">Выбор есть всегда!</string>
+    <string name="alert_dialog_two_button_message">Выберай полезную еду</string>
+    <string name="alert_dialog_three_buttons_title">Выбери правильный ответ</string>
+    <string name="alert_dialog_three_buttons_message">Уверен?</string>
+    <string name="alert_dialog_positive_text">Да</string>
+    <string name="alert_dialog_negative_text">Нет</string>
+    <string name="alert_dialog_neutral_text">Не знаю</string>
+    <string name="alert_dialog_choice_title">Выбери элемент/ы</string>
+    <string name="alert_dialog_you_choose_text">Ты выбрал: %s</string>
+</resources>
