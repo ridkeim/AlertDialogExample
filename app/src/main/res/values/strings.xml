@@ -23,4 +23,6 @@
     <string name="alert_dialog_you_choose_text">Ты выбрал: %s</string>
     <string name="username">Имя пользователя</string>
     <string name="password">пароль</string>
+    <string name="rating_message">Оцените приложение</string>
+    <string name="rating_title">Важно!</string>
 </resources>
