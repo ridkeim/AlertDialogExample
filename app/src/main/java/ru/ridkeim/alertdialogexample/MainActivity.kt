@@ -3,8 +3,10 @@ package ru.ridkeim.alertdialogexample
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Toast
+import androidx.fragment.app.DialogFragment
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(),MyCustomDialogFragment.NoticeDialogListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -33,6 +35,15 @@ class MainActivity : AppCompatActivity() {
             val myCustomDialogFragment = MyCustomDialogFragment()
             myCustomDialogFragment.show(supportFragmentManager,"myCustomDialog")
         }
+
+    }
+
+    override fun onDialogPositiveClick(dialog: DialogFragment) {
+        Toast.makeText(this,"CustomDialogPositive",Toast.LENGTH_SHORT).show()
+    }
+
+    override fun onDialogNegativeClick(dialog: DialogFragment) {
+        Toast.makeText(this,"CustomDialogNegative",Toast.LENGTH_SHORT).show()
 
     }
 }

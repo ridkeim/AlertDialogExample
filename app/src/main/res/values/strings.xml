@@ -21,4 +21,6 @@
     <string name="alert_dialog_neutral_text">Не знаю</string>
     <string name="alert_dialog_choice_title">Выбери элемент/ы</string>
     <string name="alert_dialog_you_choose_text">Ты выбрал: %s</string>
+    <string name="username">Имя пользователя</string>
+    <string name="password">пароль</string>
 </resources>
